@@ -43,21 +43,21 @@ import {
 } from '@alfresco/adf-content-services';
 import { AppRouteReuseStrategy, SharedModule } from '@alfresco/aca-shared';
 
-import { AppComponent } from './app.component';
-import { APP_ROUTES } from './app.routes';
+import { AppComponent } from '@app/app.component';
+import { APP_ROUTES } from '@app/app.routes';
 
 import { FilesComponent } from '@app/components/files/files.component';
 import { LibrariesComponent } from '@app/components/libraries/libraries.component';
 import { FavoriteLibrariesComponent } from '@app/components/favorite-libraries/favorite-libraries.component';
-import { NodeVersionUploadDialogComponent } from './dialogs/node-version-upload/node-version-upload.dialog';
-import { NodeVersionsDialogComponent } from './dialogs/node-versions/node-versions.dialog';
+import { NodeVersionUploadDialogComponent } from '@app/dialogs/node-version-upload/node-version-upload.dialog';
+import { NodeVersionsDialogComponent } from '@app/dialogs/node-versions/node-versions.dialog';
 
-import { AppStoreModule } from './store/app-store.module';
-import { MaterialModule } from './material.module';
-import { AppExtensionsModule } from './extensions.module';
-import { CoreExtensionsModule } from './extensions/core.extensions.module';
+import { AppStoreModule } from '@app/store/app-store.module';
+import { MaterialModule } from '@app/material.module';
+import { AppExtensionsModule } from '@app/extensions.module';
+import { CoreExtensionsModule } from '@app/extensions/core.extensions.module';
 import { AppInfoDrawerModule } from '@app/components/info-drawer/info.drawer.module';
-import { DirectivesModule } from './directives/directives.module';
+import { DirectivesModule } from '@app/directives/directives.module';
 import { ContextMenuModule } from '@app/components/context-menu/context-menu.module';
 import { ExtensionsModule } from '@alfresco/adf-extensions';
 import { AppToolbarModule } from '@app/components/toolbar/toolbar.module';
@@ -76,8 +76,8 @@ import { AppNodeVersionModule } from '@app/components/node-version/node-version.
 import { FavoritesComponent } from '@app/components/favorites/favorites.component';
 import { RecentFilesComponent } from '@app/components/recent-files/recent-files.component';
 import { SharedFilesComponent } from '@app/components/shared-files/shared-files.component';
-import { CreateFromTemplateDialogComponent } from './dialogs/node-template/create-from-template.dialog';
-import { environment } from '../environments/environment';
+import { CreateFromTemplateDialogComponent } from '@app/dialogs/node-template/create-from-template.dialog';
+import { environment } from '@app/../environments/environment';
 
 import { registerLocaleData } from '@angular/common';
 import localeFr from '@angular/common/locales/fr';
